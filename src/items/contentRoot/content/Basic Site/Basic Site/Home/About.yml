@@ -1,0 +1,94 @@
+﻿---
+ID: "4af6b67c-62c4-4974-a6d0-2b9f6f084931"
+Parent: "fdd18ad2-d6bd-4119-9791-069386b538e5"
+Template: "fc1e86cb-01d1-4df2-aa07-92f835fc69fd"
+Path: /sitecore/content/Basic Site/Basic Site/Home/About
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{69962013-78AA-45EA-9F2A-2151319D48E8}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B3AE0BF9-692F-4884-84BB-DD3F6E3D3734}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b979A12C2-5C62-4844-9EA4-6223E59E9D60%7d%7c%7b2E08101F-B9AC-417B-B23F-ECD1D4B801F5%7d%7c%7b3F07F976-FC46-436B-A18A-FDDE1A8E6194%7d%7c%7b2656B66E-F3AE-4D56-BF13-A7BFE9953188%7d%7c%7b5080DA7A-0340-4A81-B4C4-30BF9190D3CD%7d%7c%7b881DB1DE-CBBB-4174-9C6A-0AB33E08254F%7d%7c%7bFEBA6E24-0C63-4AA1-B553-EBEA450DDB81%7d%7c%7b726F23A1-21B8-4B18-B0BA-177F0F9C716D%7d%7c%7b36A7EC6F-1496-4E94-B611-8FE6F5ED80AC%7d%7c%7b5D8D6542-72EF-44B6-92CB-3062DC862ED5%7d%7c%7b7FDBFFFB-4B9F-4DAC-9507-A9B581C2F5D4%7d%7c%7b3C55F00E-6D19-40C5-8B9C-B217FECB0D2F%7d%7c%7bB2CA28E1-6DF6-4EC1-BEF5-B626043FC21C%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{7E5D5C25-DF0B-4985-A40A-0B41F2A79275}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b3541CEC9-5E0D-451E-BAE7-71D9B647875C%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3BC75F2A-A195-423A-8FD8-1FDA7C57E522}"
+              p:after="r[@uid='{B3AE0BF9-692F-4884-84BB-DD3F6E3D3734}']"
+              s:ds=""
+              s:id="{C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B353FE66A-BA50-45FA-868B-E1F97F3D079F%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/container-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{7E5D5C25-DF0B-4985-A40A-0B41F2A79275}"
+              p:after="*[1=2]" />
+          </d>
+        </r>
+    - ID: "1a58bc66-e969-4cb4-b8e5-25ef0ca695f6"
+      Hint: Title
+      Value: About
+    - ID: "242eeff5-7cb4-4e3f-af1c-03266563bdf0"
+      Hint: Content
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221028T163124Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50f74c24-fc06-4c55-a875-4cf648c3e791"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\aaron.bickle@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221207T224541Z

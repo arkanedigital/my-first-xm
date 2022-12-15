@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "MyFirstXM",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/Templates/Project/Basic Site",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "contentRoot",
+        "path": "/sitecore/content",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/Media Library/Project/Basic Site",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

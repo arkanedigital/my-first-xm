@@ -1,5 +1,4 @@
 services:
-
   # A Windows-based nodejs base image
   nodejs:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-nodejs:${VERSION:-latest}
