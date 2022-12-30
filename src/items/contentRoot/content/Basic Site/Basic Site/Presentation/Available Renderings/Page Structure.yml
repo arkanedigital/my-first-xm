@@ -11,6 +11,8 @@ SharedFields:
     {7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}
     {15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}
     {5F6BF7C9-C80C-4BBD-AD78-8DA749B35206}
+    {6F66F45E-FAC1-4906-B52D-27AC2F0CFDF4}
+    {ADF347F0-9ECF-4660-AFE6-A33A28459A2C}
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{5C3DAFA2-8F50-485F-ACB1-22E3A492E86D}"
@@ -32,11 +34,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "15be5018-1922-4140-971f-dbc9dc5813b3"
+      Value: "63c3071e-2c95-44e3-8973-e81ddeb67b9a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221028T163123Z
+      Value: 20221230T174732Z

@@ -8,7 +8,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{ECC9229B-9995-49D6-B6D7-5987C5C0A6BC}" />
+    <image mediaid="{E548C2A1-4026-4FCC-927A-4E3DDD56731F}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -78,8 +78,20 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{0B9FB68B-8F6D-419D-853F-3DE7E5388DED}"
+              p:before="*"
+              s:id="{C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B353FE66A-BA50-45FA-868B-E1F97F3D079F%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/container-4" />
+            <r
               uid="{1D4AEB38-A10B-409E-8612-17D0621FE835}"
               s:par="Styles={BC690A36-4814-4DF5-BB4F-D1A6A17AEEF2}&amp;FieldNames={3541CEC9-5E0D-451E-BAE7-71D9B647875C}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{3DC91543-36F8-452A-BACD-F98B0C21BCF9}|{6F83979B-4C3F-4EEC-8C64-F8DA29D83961}|{959FDFBB-4691-4A17-816F-7A5330B8216A}|{271DE3B1-089F-4977-95EC-B5E51446FC01}|{1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{94BCE55D-68FC-4020-A364-176EF1AAAFFB}|{F4BC7C4C-175F-4EA4-A6D9-EFCD92507276}|{7DF615F7-0A53-42E1-A164-2B36D6126314}|{1FEC5EDD-5489-43F1-8C19-A092206E130D}|{B706790E-8CB2-4A93-B341-6E7171734B61}" />
+            <r
+              uid="{5D979567-A28A-4D6E-B948-94BEFD849C54}"
+              p:after="r[@uid='{1D4AEB38-A10B-409E-8612-17D0621FE835}']"
+              s:id="{ADF347F0-9ECF-4660-AFE6-A33A28459A2C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="headless-main" />
             <r
               uid="{17CBF770-7EB6-46EA-AAB5-8AE6EA190B6B}"
               s:par="DynamicPlaceholderId=2&amp;FieldNames={DAE7F1CE-0C06-466C-80A3-7DAD5619CBFF}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}" />
@@ -100,6 +112,9 @@ Languages:
     - ID: "1a58bc66-e969-4cb4-b8e5-25ef0ca695f6"
       Hint: Title
       Value: Home
+    - ID: "242eeff5-7cb4-4e3f-af1c-03266563bdf0"
+      Hint: Content
+      Value: <p>fdsafdsfan</p><p>fdksan</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20221028T163059Z
@@ -116,11 +131,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a1a1536-5caf-4f87-9202-749a0743b673"
+      Value: "f0208dc5-3329-469e-910b-350aafd6d8b8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\uy.tran@arkanedigital.com
+        sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221028T163933Z
+      Value: 20221230T175413Z

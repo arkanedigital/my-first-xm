@@ -20,7 +20,7 @@ Languages:
       Hint: PromoText
       Value: |
         <h3>Latest Streetwear</h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+        <p>This clothing will make you feel cooler, be smarter, and love life more. If you spend money with us, you will most definitely instantly have a better life. Guaranteed, or we'll take your money again! Go live your best life fool! Right after you buy this shit.+</p>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,14 +31,14 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89d7e4b3-ac4c-4c70-8979-18d976f49c6b"
+      Value: "bc7a62cc-7158-45d9-9b46-1bc4a8ed231f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221028T163127Z
+      Value: 20221230T153543Z
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
