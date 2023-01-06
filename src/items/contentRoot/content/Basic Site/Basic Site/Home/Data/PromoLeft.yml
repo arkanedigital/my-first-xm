@@ -31,14 +31,18 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bc7a62cc-7158-45d9-9b46-1bc4a8ed231f"
+      Value: "5eda513d-b72e-499d-b2fb-afdca4ff25d0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221230T153543Z
+      Value: 20230106T165447Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link text="About" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{4AF6B67C-62C4-4974-A6D0-2B9F6F084931}" />
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
