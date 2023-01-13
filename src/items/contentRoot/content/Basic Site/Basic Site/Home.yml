@@ -82,18 +82,26 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{54A9E360-9EAE-431A-9A3F-7EF6BE18E15C}"
+              uid="{17CBF770-7EB6-46EA-AAB5-8AE6EA190B6B}">
+              <p:d />
+            </r>
+            <r
+              uid="{64366786-681C-4E81-8D2C-B4B3AE8126F9}"
               p:before="*"
+              s:ds="local:/Data/New Grid List With Image"
+              s:id="{820C3FE0-DAE3-4686-AD2B-CC9D7508DF0F}"
+              s:par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{54A9E360-9EAE-431A-9A3F-7EF6BE18E15C}"
+              p:after="r[@uid='{64366786-681C-4E81-8D2C-B4B3AE8126F9}']"
               s:ds="{4FA23389-762D-486F-88B2-2ACB4B0240AF}"
               s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B12A94CF0-9B0C-43F8-9286-A8E07D28156E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
               s:ph="/headless-main/container-3" />
             <r
-              uid="{17CBF770-7EB6-46EA-AAB5-8AE6EA190B6B}"
-              s:par="DynamicPlaceholderId=2&amp;FieldNames={DAE7F1CE-0C06-466C-80A3-7DAD5619CBFF}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}" />
-            <r
               uid="{A9C3DF14-C85C-4E23-916D-053977A4E33C}"
-              p:after="r[@uid='{17CBF770-7EB6-46EA-AAB5-8AE6EA190B6B}']"
+              p:after="r[@uid='{54A9E360-9EAE-431A-9A3F-7EF6BE18E15C}']"
               s:ds="local:/Data/New One Of Everything"
               s:id="{C6035323-B29D-408C-B9CD-4C8EADA3AC9A}"
               s:par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
@@ -134,11 +142,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "216e5973-a51a-461e-91a7-ed49ad8d43a8"
+      Value: "81822472-fd83-4893-8f2f-e3c7ffa21330"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230113T164410Z
+      Value: 20230113T194545Z
