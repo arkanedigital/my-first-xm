@@ -1,0 +1,59 @@
+﻿---
+ID: "5732f204-823f-4c33-8f47-3f216dac521e"
+Parent: "48755b84-ecab-4f91-9336-812b589e3f15"
+Template: "976533a9-610b-41b2-b254-290d118d2819"
+Path: /sitecore/content/Basic Site/Basic Site/Home/Data/New Grid List With Image
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230113T152203Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "66d1a4bf-0de8-4b76-947c-e29cba80d806"
+      Hint: Heading3
+      Value: Static Generation
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7d8a4cd-3a2a-441a-8d16-4cfe4569b37a"
+    - ID: "90f7850e-dbfe-44ef-b2e3-843a74ab4ce3"
+      Hint: Heading4
+      Value: File System Routing
+    - ID: "9aca0b8a-ed62-4ada-a8ca-0053bba40885"
+      Hint: Image
+      Value: |
+        <image mediaid="{551E04DA-EDB5-4149-A088-1072DB94F03B}" />
+    - ID: "9b23507a-0db5-493e-8ed0-d8443ce8a7f9"
+      Hint: Body3
+      Value: "Use server-side rendering, static site generation, or incremental static regeneration without complicated overhead."
+    - ID: "9b236f94-beef-4097-9c4e-b64c41c2f45a"
+      Hint: Body4
+      Value: Routing is built in. No more setting up additional packages and lots of boilerplate. Simply structure your folders the way you want to route.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "c7be9b34-58eb-4937-b52e-d2102bc98949"
+      Hint: Body2
+      Value: Most components have a flag to allow for easy setup of lazy loading. Hit your FCP and Time to Interactive sooner.
+    - ID: "d18e6acd-db27-48e7-a6a7-7f0c6f6764ac"
+      Hint: Body1
+      Value: Serve correctly sized image in modern formats like webp and avoid slow load times or cumulative layout shift.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230113T153910Z
+    - ID: "ddafa6d3-0949-41c4-b0e5-76d933cf002b"
+      Hint: Heading1
+      Value: Image Optimization
+    - ID: "df1ab4c8-3c81-4ac9-9af5-b164d15c7bbf"
+      Hint: Heading2
+      Value: Lazy Loading Made Easy

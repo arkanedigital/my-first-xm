@@ -16,6 +16,7 @@ interface ComponentProps {
 }
 
 export const Default = (props: ComponentProps): JSX.Element => {
+  // console.log('rendering', JSON.stringify(props.rendering));
   const { sitecoreContext } = useSitecoreContext();
   const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
   const styles = `${props.params.GridParameters} ${containerStyles}`.trimEnd();
@@ -39,6 +40,14 @@ export const Default = (props: ComponentProps): JSX.Element => {
           <div className="row">
             <Placeholder name={phKey} rendering={props.rendering} />
           </div>
+          {/* <div className="flex">
+            <div className="border border-red-100">
+              <Placeholder name={phKey} rendering={props.rendering} />
+            </div>
+            <div className="border border-red-100">
+              <Placeholder name={phKey} rendering={props.rendering} />
+            </div>
+          </div> */}
         </div>
       </div>
     </div>

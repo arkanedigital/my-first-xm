@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav {
+    @apply t-w-full t-flex t-justify-between t-items-center;
+  }
+
+  .nav-item {
+    @apply t-p-3 t-w-fit t-text-center hover:t-border hover:t-border-0 hover:t-border-b-4 hover:t-border-b-red-600;
+  }
+
+  .nav-item-color {
+    @apply t-bg-slate-800 hover:t-bg-slate-500 t-text-slate-300;
+  }
+
+  .sidebar-item {
+    @apply t-p-3 t-text-center;
+  }
+
+  .sidebar-item-color {
+    @apply t-bg-slate-800 hover:t-bg-slate-500 t-text-slate-300;
+  }
+
+  .alert-error {
+    @apply t-w-fit t-bg-red-100 t-border t-border-red-400 t-text-red-800 t-px-8 t-py-3 t-rounded t-relative t-mx-auto t-text-center;
+  }
+  .alert-warning {
+    @apply t-w-fit t-bg-yellow-100 t-border t-border-yellow-400 t-text-yellow-800 t-px-8 t-py-3 t-rounded t-relative t-mx-auto t-text-center;
+  }
+  .alert-success {
+    @apply t-w-fit t-bg-green-100 t-border t-border-green-400 t-text-green-800 t-px-8 t-py-3 t-rounded t-relative t-mx-auto t-text-center;
+  }
+  .alert-info {
+    @apply t-w-fit t-bg-blue-100 t-border t-border-blue-400 t-text-blue-800 t-px-8 t-py-3 t-rounded t-relative t-mx-auto t-text-center;
+  }
+
+  .ghost-text {
+    @apply t-select-none t-relative t-uppercase t-text-white t-text-9xl t-transition t-ease-out t-duration-200;
+  }
+
+  .gradient-text {
+    @apply t-text-transparent t-text-6xl t-transition t-ease-out t-duration-200 t-py-10 t-bg-clip-text t-bg-gradient-to-r t-from-blue-600 t-to-pink-500;
+  }
+  .gradient-text-vertical {
+    @apply text-transparent t-text-6xl t-transition t-ease-out t-duration-200 t-font-extrabold t-py-4 t-bg-clip-text t-bg-gradient-to-b t-from-white t-via-cyan-300 t-to-blue-900;
+  }
+}
+
+.ghost-text-mixin {
+  text-shadow: -15px 5px 20px #888888;
+  letter-spacing: -0.1em;
+  font-family: 'Anton', Arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .bg-grad-hor {
+    background: linear-gradient(
+      transparent 5%,
+      hsla(0, 0%, 100%, 0.85) 28%,
+      hsla(0, 0%, 100%, 0.85) 69%
+    );
+  }
+}
+
+.footer-title {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-blue {
+  background-color: #00043a;
+}
+
+.footer-darkblue {
+  background-color: #01042f;
+}

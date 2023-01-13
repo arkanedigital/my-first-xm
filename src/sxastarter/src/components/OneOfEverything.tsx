@@ -23,18 +23,25 @@ type OneOfEverythingProps = ComponentProps & {
 };
 
 const OneOfEverything = (props: OneOfEverythingProps): JSX.Element => {
-  // console.log('OneOfEverything props', JSON.stringify(props.fields.MyLink));
   return (
-    <div>
-      <h1 className="text-7xl">OneOfEverything Component</h1>
-      <Text tag="h2" className="contentTitle" field={props.fields.MyText} />
-      <RichText field={props.fields.MyRichText} />
-      The checkbox is{' '}
-      {props.fields.MyCheckbox.value ? `${props.fields.MyCheckbox.value}` : 'not checked'}
-      <Image field={props.fields.MyImage} />
-      <Link field={props.fields.MyLink} />
-      <p>Multi-line text:</p>
-      <pre>{props.fields.MyMultiLine.value}</pre>
+    <div className="t-py-12 t-bg-slate-300 t-w-screen">
+      <div className="t-px-8 t-bg-slate-300 t-space-y-12 t-container t-flex t-flex-col t-mx-auto">
+        <h1 className="t-text-9xl t-py-4">OneOfEverything Component</h1>
+        <hr />
+        <Text tag="h2" className="contentTitle" field={props.fields.MyText} />
+        <RichText field={props.fields.MyRichText} />
+        <p>
+          The checkbox is{' '}
+          {props.fields.MyCheckbox.value ? `${props.fields.MyCheckbox.value}` : 'not checked'}
+          {`. Checkbox - received as Field<boolean>. Is it used by referencing the variable. This is not a checkbox inside Next.js. It's simply a boolean that can be used for a toggle that needs to be set by the author and not the developer/visitor.`}
+        </p>
+        <Image field={props.fields.MyImage} />
+        Image - Received as ImageField. Displayed with <Image /> component, which wraps Next Image.
+        The image you see here is actually editable as a Next.js image with optimizations from
+        within the content editor. You can set the image size, alt text, and more for the Image.
+        <Link field={props.fields.MyLink} />
+        <p>{props.fields.MyMultiLine.value}</p>
+      </div>
     </div>
   );
 };
