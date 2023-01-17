@@ -33,6 +33,7 @@ type LinkListItemProps = {
 };
 
 const LinkListItem = (props: LinkListItemProps) => {
+  console.log('LinkListItem', props);
   let className = `item${props.index}`;
   className += (props.index + 1) % 2 == 0 ? ' even' : ' odd';
   if (props.index == 0) {
@@ -51,6 +52,7 @@ const LinkListItem = (props: LinkListItemProps) => {
 };
 
 export const Default = (props: LinkListProps): JSX.Element => {
+  console.log('LinkList', props);
   const datasource = props.fields?.data?.datasource;
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
