@@ -1,8 +1,13 @@
 ﻿---
-ID: "8e9a8e87-cfd1-46e7-b97d-aacf0180b6b3"
-Parent: "74e996d0-bc62-460c-bf3d-e760ed0e5315"
-Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
-Path: /sitecore/content/Basic Site/Basic Site/Data/Link Lists/My Link List/Options
+ID: "027265c8-2411-4f2e-a82a-75216805f65d"
+Parent: "16142471-bfa8-4d1a-ae4e-4c233375c9ed"
+Template: "98844c1c-1d14-44d8-98a5-80de3cbbc252"
+Path: /sitecore/content/Basic Site/My New Site/Presentation/Partial Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{703ABB6D-BE33-4F9D-97FF-EE1571A14C81}"
 Languages:
 - Language: en
   Versions:
@@ -10,10 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230106T185754Z
-    - ID: "4a2438cc-3800-4961-b8be-e861fd550e47"
-      Hint: isParent
-      Value: 1
+      Value: 20230117T182500Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -24,11 +26,11 @@ Languages:
         sitecore\dean.draper@arkanedigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f401852-5a51-4f1c-898e-61021a16de45"
+      Value: "15afd015-8f46-4c7d-95a5-2b246733e84a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230116T193851Z
+      Value: 20230117T182501Z

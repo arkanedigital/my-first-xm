@@ -32,15 +32,15 @@ Languages:
         <p><span>12 Forever Street</span></p>
         <p><span>A99 B44</span></p>
         <p><span>The Nation of Skate</span></p>
-        <p><span>Made by <a href="https://www.sitecore.com/">Sitecore</a></span></p>
-        <div><span><br /></span></div>
+        <div><span><br />
+        </span></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "732f52e4-093a-42ae-8aae-dd281136e57c"
+      Value: "b008a1ea-86ce-4188-ae49-4a25ad3fb0c8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\dean.draper@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221028T163125Z
+      Value: 20230117T184855Z
