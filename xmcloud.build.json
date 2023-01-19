@@ -29,7 +29,7 @@
     },
     "transforms": [
       {
-          "xdtPath": "/App_data/Xdts/Web.config.xdt",
+          "xdtPath": "/App_Data/Xdts/web.config.xdt",
           "targetPath": "/web.config"
       }
   ]

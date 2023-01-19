@@ -65,7 +65,7 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_data\xdst\web.config.xdt">
+    <Content Include="App_Data\Xdst\web.config.xdt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Platform.wpp.targets" />
