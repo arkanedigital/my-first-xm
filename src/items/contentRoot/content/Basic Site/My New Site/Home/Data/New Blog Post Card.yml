@@ -1,0 +1,23 @@
+﻿---
+ID: "ee24325e-6802-47aa-a58a-32c81c8efba6"
+Parent: "7ed45ad0-db1a-4dc8-b913-2d6c508ec248"
+Template: "e69a8212-60f4-4e36-a4f1-af3649626807"
+Path: /sitecore/content/Basic Site/My New Site/Home/Data/New Blog Post Card
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230118T200335Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44b3f96d-cd5e-4173-93dc-f2ce9fa1eb69"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dean.draper@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230118T200335Z
