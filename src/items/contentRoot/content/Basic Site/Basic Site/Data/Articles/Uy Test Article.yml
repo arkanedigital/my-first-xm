@@ -1,0 +1,40 @@
+﻿---
+ID: "a57852c5-3a77-444e-91c6-dcb594e14b7d"
+Parent: "fbed18a2-d113-4ee4-a899-9da64f41933d"
+Template: "bfc26d1d-7fb2-43c1-b16f-cc723fa78fcb"
+Path: /sitecore/content/Basic Site/Basic Site/Data/Articles/Uy Test Article
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230127T182028Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "6638cdb9-c673-488a-8fa4-eeb0e5cc84e2"
+      Hint: Description
+      Value: "Hello, I'm a <strong>rich text!</strong>"
+    - ID: "7faeefaf-2ed6-4036-9ed5-bc79fb1a3c36"
+      Hint: Title
+      Value: Title goes here
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ab502fe-ff02-4204-b9c1-17c7193bb997"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d6b5662b-f80c-4920-a96d-df6d06a47b81"
+      Hint: Date
+      Value: 20230125T080000Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230127T182148Z

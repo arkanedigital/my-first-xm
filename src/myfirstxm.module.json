@@ -1,22 +1,32 @@
 {
-  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
   "namespace": "MyFirstXM",
   "items": {
     "includes": [
       {
         "name": "templates",
         "path": "/sitecore/Templates/Project/Basic Site",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "featureRenderingsComponents",
+        "path": "/sitecore/layout/Renderings/Feature/Components",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "featureTemplatesComponents",
+        "path": "/sitecore/templates/Feature/Components",
+        "allowedPushOperations": "createUpdateAndDelete"
       },
       {
         "name": "contentRoot",
         "path": "/sitecore/content",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "createUpdateAndDelete"
       },
       {
         "name": "media",
         "path": "/sitecore/Media Library/Project/Basic Site",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "createUpdateAndDelete"
       }
     ]
   }

@@ -28,9 +28,6 @@ Languages:
       Hint: Link
       Value: |
         <link text="About" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{4AF6B67C-62C4-4974-A6D0-2B9F6F084931}" />
-    - ID: "6cf2f9c1-12e6-4e31-8940-d702a73ce548"
-      Hint: Display Name
-      Value: About
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "ac987a0e-7436-4484-a670-6bc96200705e"
