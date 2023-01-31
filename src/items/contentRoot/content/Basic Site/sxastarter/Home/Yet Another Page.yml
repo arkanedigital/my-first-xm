@@ -1,0 +1,42 @@
+﻿---
+ID: "8f5b6c42-f42b-4f97-9518-ba11427a6fa6"
+Parent: "9a19d40b-46ba-4835-9209-42525e65a485"
+Template: "fc1e86cb-01d1-4df2-aa07-92f835fc69fd"
+Path: /sitecore/content/Basic Site/sxastarter/Home/Yet Another Page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{93CAC859-D3B7-4B67-B44D-DC8C742E42EA}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a58bc66-e969-4cb4-b8e5-25ef0ca695f6"
+      Hint: Title
+      Value: Yet Another Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230130T221412Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Yet Another Page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94be68f8-afef-4018-8102-80dc8ef7c85b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230130T221416Z

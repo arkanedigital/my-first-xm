@@ -1,0 +1,40 @@
+﻿---
+ID: "4b6b26c6-fe5f-4486-8c96-b0625573a743"
+Parent: "3a49fc21-eeef-4304-9377-708f52bac2df"
+Template: "bfc26d1d-7fb2-43c1-b16f-cc723fa78fcb"
+Path: /sitecore/content/Basic Site/sxastarter/Data/Articles/Article Uy
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230127T201340Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "6638cdb9-c673-488a-8fa4-eeb0e5cc84e2"
+      Hint: Description
+      Value: BOld <strong>text</strong>
+    - ID: "7faeefaf-2ed6-4036-9ed5-bc79fb1a3c36"
+      Hint: Title
+      Value: Title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ee872cc-d365-4862-8017-4e7540716f90"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d6b5662b-f80c-4920-a96d-df6d06a47b81"
+      Hint: Date
+      Value: 20230127T080000Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230127T201428Z
