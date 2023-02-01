@@ -14,9 +14,13 @@
     .\up.ps1
     ```
 
-3. Follow the instructions to [deploy to XM Cloud](#deploy-to-xmcloud)
+3. In Sitecore, go to /sitecore/system/Settings/Services/Rendering Hosts and make sure there is a rendering host item that is pointing to: http://rendering:3000/api/editing/render, http://rendering:3000, sxastarter
 
-4. Create Edge token and [query from edge](#query-edge)
+4. Navigate to /src/sxastarter in this directory. npm install and npm run build to make sure you have all dependencies
+
+5. Then, run npm start:connected. This will start a live renderinghost for you to be able to use experience editor in your local sitecore for the sxastarter site node
+
+6. If there are any issues, make sure you local .env in root directory, and the .env in sxastarter are matching
 
 *** 
 
