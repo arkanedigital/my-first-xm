@@ -1,86 +1,107 @@
 import React from 'react';
-import { Link as JssLink, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Link as JssLink,
+  LinkField,
+  ImageField,
+  Text,
+  Image as JssImage,
+  TextField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
-type ResultsFieldLink = {
+type NavLevel1 = {
+  firstlink: {
+    link: LinkField;
+  };
+  ctaimage: {
+    image: ImageField;
+  };
+  ctadescription: {
+    description: TextField;
+  };
+  ctalink: {
+    ctalink: LinkField;
+  };
+  children: {
+    results: NavLevel2[];
+  };
+};
+
+type NavLevel2 = {
+  field: {
+    title: TextField;
+  };
+  children: {
+    results: NavLevel3[];
+  };
+};
+
+type NavLevel3 = {
   field: {
     link: LinkField;
   };
 };
 
-interface FolderFields {
+interface NavigationFields {
   data: {
     datasource: {
+      field: {
+        logo: ImageField;
+      };
       children: {
-        results: LinkListItems[];
+        results: NavLevel1[];
       };
     };
   };
 }
-type LinkListItems = {
-  name: string;
-  children: {
-    results: ResultsFieldLink[];
-  };
-};
 
-type LinkListFolderProps = {
+type NavigationItem = {
   params: { [key: string]: string };
-  fields: FolderFields;
+  fields: NavigationFields;
   name: string;
 };
 
-type LinkListProps = {
+type NavLevel1Props = {
   params: { [key: string]: string };
-  fields: LinkListItems;
+  fields: NavLevel1;
 };
 
-type LinkListItemProps = {
-  key: string;
-  index: number;
-  total: number;
-  field: LinkField;
+type NavLevel2Props = {
+  params: { [key: string]: string };
+  fields: NavLevel2;
 };
 
-const LinkListItem = (props: LinkListItemProps) => {
-  let className = `item${props.index}`;
-  className += (props.index + 1) % 2 == 0 ? ' even' : ' odd';
-  if (props.index == 0) {
-    className += ' first';
-  }
-  if (props.index + 1 == props.total) {
-    className += ' last';
-  }
+type NavLevel3Props = {
+  params: { [key: string]: string };
+  fields: NavLevel3;
+};
+
+const ThirdLevelNav = (props: NavLevel3Props) => {
   return (
-    <li className={className}>
+    <li>
       <div className="field-link">
-        <JssLink field={props.field} />
+        <JssLink field={props.fields.field.link} />
       </div>
     </li>
   );
 };
 
-const LinkListParent = (props: LinkListProps): JSX.Element => {
+const SecondLevelNav = (props: NavLevel2Props) => {
   const datasource = props.fields;
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
   if (datasource) {
     const list = datasource.children.results
-      .filter((element: ResultsFieldLink) => element?.field?.link)
-      .map((element: ResultsFieldLink, key: number) => (
-        <LinkListItem
-          index={key}
-          key={`${key}${element.field.link}`}
-          total={datasource.children.results.length}
-          field={element.field.link}
-        />
+      .filter((element: NavLevel3) => element)
+      .map((element: NavLevel3, key: number) => (
+        <ThirdLevelNav params={props.params} fields={element} key={`lvl3${key}`} />
       ));
 
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
-          {datasource?.name}
-          <ul>{list}</ul>
+          <Text field={datasource.field.title} />
+          <div>{list}</div>
         </div>
       </div>
     );
@@ -89,13 +110,45 @@ const LinkListParent = (props: LinkListProps): JSX.Element => {
   return (
     <div className={styles} id={id ? id : undefined}>
       <div className="component-content">
-        <h3>Link List</h3>
+        <h3>Second level</h3>
       </div>
     </div>
   );
 };
 
-export const Default = (props: LinkListFolderProps): JSX.Element => {
+const FirstLevelNav = (props: NavLevel1Props): JSX.Element => {
+  const datasource = props.fields;
+  const styles = `component link-list ${props.params.styles}`.trimEnd();
+  const id = props.params.RenderingIdentifier;
+
+  if (datasource) {
+    const list = datasource.children.results
+      .filter((element: NavLevel2) => element)
+      .map((element: NavLevel2, key: number) => (
+        <SecondLevelNav params={props.params} fields={element} key={`lvl2${key}`} />
+      ));
+
+    return (
+      <div className={styles} id={id ? id : undefined}>
+        <div className="component-content">
+          <JssLink field={datasource.firstlink.link} />
+          <JssImage field={datasource.ctaimage.image} />
+          <div>{list}</div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles} id={id ? id : undefined}>
+      <div className="component-content">
+        <h3>First Level</h3>
+      </div>
+    </div>
+  );
+};
+
+export const Default = (props: NavigationItem): JSX.Element => {
   console.log('LinkListParent', props);
   const datasource = props.fields?.data?.datasource;
   const styles = `component link-list ${props.params.styles}`.trimEnd();
@@ -104,8 +157,8 @@ export const Default = (props: LinkListFolderProps): JSX.Element => {
   if (datasource) {
     const list = datasource.children.results
       .filter((element) => element)
-      .map((element: LinkListItems, key: number) => (
-        <LinkListParent params={props.params} fields={element} key={key} />
+      .map((element: NavLevel1, key: number) => (
+        <FirstLevelNav params={props.params} fields={element} key={key} />
       ));
 
     return (
@@ -121,7 +174,7 @@ export const Default = (props: LinkListFolderProps): JSX.Element => {
   return (
     <div className={styles} id={id ? id : undefined}>
       <div className="component-content">
-        <h3>Footer placeholder</h3>
+        <h3>Nav placeholder</h3>
       </div>
     </div>
   );

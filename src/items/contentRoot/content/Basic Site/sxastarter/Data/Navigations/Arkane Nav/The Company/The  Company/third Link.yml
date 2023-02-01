@@ -1,0 +1,27 @@
+﻿---
+ID: "bda0d991-54ea-420c-b8dc-2a8fe4bfdf37"
+Parent: "a2096c83-76ce-4569-ae21-23c80073b057"
+Template: "12bad76e-5d74-4401-8eff-e8641f06c15d"
+Path: /sitecore/content/Basic Site/sxastarter/Data/Navigations/Arkane Nav/The Company/The  Company/third Link
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230131T220352Z
+    - ID: "8bd190e9-950b-4e13-9790-4767be37e0e9"
+      Hint: Link
+      Value: |
+        <link text="third level" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{80C59953-4697-4EA1-B2F5-4DFA2DF8045C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "870dddcd-d3c7-4468-8a6d-d1a2d738190c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230131T220403Z

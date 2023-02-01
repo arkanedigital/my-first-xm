@@ -1,33 +1,51 @@
 ﻿---
-ID: "315cb1c3-1e57-4454-aaed-2b58315e12d2"
+ID: "b85196bd-d718-4411-a7e0-fb6f534284fa"
 Parent: "df7f6fbf-f540-48f0-adfd-4404d0d5e379"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/Components/Navigation/Footer
+Path: /sitecore/layout/Renderings/Feature/Components/Navigation/CustomNavigation
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Footer
+  Value: CustomNavigation
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/server.png
+  Value: office/32x32/reset_layout.png
 - ID: "17bb046a-a32a-41b3-8315-81217947611b"
   Hint: ComponentQuery
   Value: |
     # Write your query or mutation here
     query TitleQuery($datasource: String!, $language: String!) {
       datasource: item(path: $datasource, language: $language) {
+        field(name: "Logo") {
+          logo: jsonValue
+        }
         children {
           results {
-            name
+            firstlink: field(name: "Link") {
+              jsonValue
+            }
+            ctaimage: field(name: "Image") {
+              jsonValue
+            }
+            ctadescription: field(name: "Description") {
+              value
+            }
+            ctalink: field(name: "CTA Link") {
+              jsonValue
+            }
             children {
               results {
-                field(name: "Link") {
-                  link: jsonValue
+                field(name: "Title") {
+                  title: value
+                }
+                children {
+                  results {
+                    field(name: "Link") {
+                      link: jsonValue
+                    }
+                  }
                 }
               }
-            }
-            field(name: "Title") {
-              title: jsonValue
             }
           }
         }
@@ -36,7 +54,7 @@ SharedFields:
     
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List Folder
+  Value: /sitecore/templates/Feature/Components/Navigation/Custom Navigation
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -48,7 +66,7 @@ SharedFields:
   Value: "{EF87E73B-C7FF-49A2-AC59-9B0BE83755C3}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Link List Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Link List Folder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Navigation Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Navigation Folder']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
@@ -98,14 +116,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a3c7e9fc-6888-49ea-902d-07f245e4499f"
+      Value: "6a21a3c0-d624-49e2-9510-936aa66eb233"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\uy.tran@arkanedigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230131T215241Z
+      Value: 20230131T221759Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

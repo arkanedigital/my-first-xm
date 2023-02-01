@@ -1,0 +1,27 @@
+﻿---
+ID: "98c288e1-ba49-4518-978d-fb8470b589fe"
+Parent: "d00917e9-0cc6-40b2-b5e9-65d650c799bb"
+Template: "7894aa5e-0760-4dc3-b6e7-95957a5b7c52"
+Path: /sitecore/content/Basic Site/sxastarter/Data/Navigations/Arkane Nav
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230131T220112Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ce96f7a-51e2-496b-b894-48e5b3ba9980"
+    - ID: "8f7f0c0f-c52c-4497-bc0c-1a6d9a16f646"
+      Hint: Logo
+      Value: |
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230131T220128Z

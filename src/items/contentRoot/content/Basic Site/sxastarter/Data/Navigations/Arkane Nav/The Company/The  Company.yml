@@ -1,0 +1,26 @@
+﻿---
+ID: "a2096c83-76ce-4569-ae21-23c80073b057"
+Parent: "e7ffadf8-90fc-4900-a82f-689a42157941"
+Template: "944466ea-6334-47b2-8a39-6c72960280c8"
+Path: /sitecore/content/Basic Site/sxastarter/Data/Navigations/Arkane Nav/The Company/The  Company
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230131T220345Z
+    - ID: "382b4880-d9f1-4368-adb8-a8a05957952c"
+      Hint: Title
+      Value: The  Company
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2238814b-4440-4667-8b37-8049d1206189"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uy.tran@arkanedigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230131T220345Z
