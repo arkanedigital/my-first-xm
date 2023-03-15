@@ -86,5 +86,10 @@ services:
       SITECORE_Pages_CORS_Allowed_Origins: ${SITECORE_Pages_CORS_Allowed_Origins}
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
-      Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
+      Sitecore_AppSettings_exmEnabled:define: "no"
+      Sitecore_AppSettings_cmpEnabled__define: "yes"
+      Sitecore_ConnectionStrings_CMP_dot_ContentHub: "ClientId=LogicApp;ClientSecret=d54a8fb6-45f7-4404-a930-4bfc05ce6cb5;UserName=SitecoreConnect;Password=ContentHub12#$;URI=https://arkanesandbox.sitecoresandbox.cloud/;"
+      Sitecore_ConnectionStrings_CMP_dot_ServiceBusEntityPathIn: "Endpoint:sb://seps-run-sb-weu.servicebus.windows.net/;SharedAccessKeyName=Write;SharedAccessKey=4SCpbxGgnOfzxwEWhkiygEXuMyp1k0js2fXYIBAJwFU=;EntityPath=hub_in_x3cvd6ql8ayuquj6c5o"
+      Sitecore_ConnectionStrings_CMP_dot_ServiceBusEntityPathOut: "Endpoint:sb://seps-run-sb-weu.servicebus.windows.net/;SharedAccessKeyName=Read;SharedAccessKey=LSJgrjat9nnoIuDshcNyTlWsTcRLAt4bpsTmssR47Z8=;EntityPath=hub_out_x3cvd6ql8ayuquj6c5o"
+      Sitecore_ConnectionStrings_CMP_dot_ServiceBusSubscription: "hub_out_subscription"
     entrypoint: powershell -Command "& C:/tools/entrypoints/iis/Development.ps1"

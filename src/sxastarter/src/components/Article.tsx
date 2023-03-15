@@ -22,11 +22,14 @@ type ArticleProps = ComponentProps & {
  * JSS component that's useful.
  */
 const Article = ({ fields }: ArticleProps): JSX.Element => (
-  <div className="contentBlock">
-    Hardcoded text
+  <div>
     <Text tag="h1" className="contentTitle" field={fields.Title} />
     <DateField field={fields.Date} />
-    <RichText className="contentDescription" field={fields.Description} />
+    <div className="container">
+      <div className="row">
+        <RichText className="contentDescription" field={fields.Description} />
+      </div>
+    </div>
   </div>
 );
 

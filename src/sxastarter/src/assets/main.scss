@@ -1,7 +1,34 @@
+//* Custom color scheme
+$brand: black;
+$brand-action: #065f7b;
+$brand-accent: #f7b500;
+$brand-rev: #f7f7f7;
+
+//* Import Functions and Variables from Bootstrap
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//* Add custom spacing (margin/padding) to the Bootstrap variables
+$my-spacers: (
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 7.5,
+  9: $spacer * 9,
+);
+$spacers: map-merge($spacers, $my-spacers);
+
+//* Add custom variables to the Bootstrap variables
+$my-theme: (
+  "primary": $primary,
+  "brand": $brand,
+  "brand-action": $brand-action,
+  "brand-accent": $brand-accent,
+  "brand-rev": $brand-rev,
+);
+$theme-colors: map-merge($theme-colors, $my-theme);
+
 @import 'basic/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'bootstrap/scss/bootstrap';
 @import 'sass/main.scss';
 @import 'basic/main.scss';
-@import 'app';
-@import 'output';
